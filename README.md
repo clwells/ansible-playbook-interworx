@@ -21,4 +21,3 @@ Notes
 -----
 
 - An InterWorx license is needed if you want to do tests on InterWorx itself.  If you're just testing the setup procedure then no InterWorx license is required.
--
