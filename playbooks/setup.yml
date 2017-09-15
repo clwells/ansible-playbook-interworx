@@ -9,5 +9,6 @@
     - include: tasks/iworx.yml mode="pre"
   roles:
     - nexcess.interworx
+    { role: nexcess.puppet, when: "nex_env_target is undefined or nex_env_target != 'vagrant'" }
   post_tasks:
     - include: tasks/iworx.yml mode="post"
