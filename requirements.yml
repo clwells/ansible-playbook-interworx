@@ -1,0 +1,6 @@
+---
+
+- src: "git+https://github.com/nexcess/ansible-role-server.git"
+  name: "nexcess.server"
+- src: "git+https://github.com/nexcess/ansible-role-interworx.git"
+  name: "nexcess.interworx"

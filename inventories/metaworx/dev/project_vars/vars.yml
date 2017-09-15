@@ -1,0 +1,8 @@
+---
+
+## Base Vars
+nex_project_name: "Nexcess MetaWorx"
+
+## NIC Sanity
+eth0: "eth0"
+eth1: "eth1"

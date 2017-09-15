@@ -1,0 +1,13 @@
+---
+
+- include: base.yml
+
+- name: Setup an InterWorx Server
+  hosts: iworx
+  become: true
+  pre_tasks:
+    - include: tasks/iworx.yml mode="pre"
+  roles:
+    - nexcess.interworx
+  post_tasks:
+    - include: tasks/iworx.yml mode="post"
