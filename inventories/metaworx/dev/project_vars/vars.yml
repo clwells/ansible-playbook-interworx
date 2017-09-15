@@ -3,6 +3,9 @@
 ## Base Vars
 nex_project_name: "Nexcess MetaWorx"
 
+## IW Test Vars
+iw_master_email: "nobody@nexcess.net"
+
 ## NIC Sanity
 eth0: "eth0"
 eth1: "eth1"
