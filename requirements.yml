@@ -2,7 +2,7 @@
 
 - src: "git+https://github.com/nexcess/ansible-role-server.git"
   name: "nexcess.server"
-- src: "git+ssh://git@github.com/nexcess/ansible-role-interworx.git"
+- src: "git+https://github.com/nexcess/ansible-role-interworx.git"
   name: "nexcess.interworx"
-- src: "https://github.com/nexcess/ansible-role-puppet.git"
+- src: "git+https://github.com/nexcess/ansible-role-puppet.git"
   name: "nexcess.puppet"
